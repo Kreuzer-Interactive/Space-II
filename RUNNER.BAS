@@ -519,11 +519,11 @@ DEF SEG = VARSEG(c(1))
 BLOAD "house.pic", VARPTR(c(1))
 PUT (c(1), c(2)), c(3)
 LOCATE 1, 1: PRINT "When you awake and shake away the       cobwebs you find that you"
-						 PRINT "have mysteriously appeared at your      summer cabin."
-						 PRINT "You wrestle with your brain to try to   remember the drive"
-						 PRINT "but you can recall nothing. Nothing     that is except for a"
-						 PRINT "bright light. How did you get here?     Who would put you here ..."
-						 PRINT "and why? (Hit a key)"
+             PRINT "have mysteriously appeared at your      summer cabin."
+             PRINT "You wrestle with your brain to try to   remember the drive"
+             PRINT "but you can recall nothing. Nothing     that is except for a"
+             PRINT "bright light. How did you get here?     Who would put you here ..."
+             PRINT "and why? (Hit a key)"
 FOR l = 1 TO 60
 PALETTE 74, l
 FOR d = 1 TO 1000 * sip: NEXT d
